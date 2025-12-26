@@ -1,0 +1,70 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+
+.hero-section {
+    height: 80vh;
+    background: url("https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80")
+      center/cover no-repeat;
+    padding-left: 0px;
+}
+.about-section {
+    background: url("https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1200&q=80")
+      center/cover no-repeat;
+}
+.btn{
+    
+}
+.glossy-text {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* ORANGE SECTION */
+
+
+/* BOXES */
+.white-box {
+    background: rgba(25,255,55,0.15);
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.container11{
+    background: url("https://images.unsplash.com/photo-1572120360610-d971b9d7767c?auto=format&fit=crop&w=1200&q=80")
+      center/cover no-repeat;
+}
+
+/* LISTING CARDS */
+.listing-card {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.listing-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* CTA SECTION */
+.cta-section {
+    height: 60vh;
+    background: url("../images/img6.jpg") center/cover no-repeat;
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 768px) {
+    .hero-section {
+        padding-left: 20px;
+        text-align: center;
+    }
+    .cta-section p {
+        width: 100%;
+    }
+}
